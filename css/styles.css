@@ -703,12 +703,6 @@ img {
   text-decoration: none;
 }
 
-
-.footer-subscride {
-  
-  
-}
-
 .subscride-form-title {
   display: flex;
   position: relative;
@@ -729,20 +723,20 @@ img {
   border: 1px solid #FFFFFF;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   margin-left: 80px;
-  width: 264px;
-  height: 40px;
   display: flex;
   align-items: center;
   background-color: transparent;
 }
 
 .subscride-form-text {
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5em;
   letter-spacing: 0.04em;
   color: #FFFFFF;
-  position: absolute;
   display: flex;
   align-items: center;
   background-color: transparent;
@@ -750,7 +744,6 @@ img {
 }
 
 .subscride-form-text:focus {
-  outline: 1px solid #4d5ae5;
   transition-duration: 250ms;
   transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
