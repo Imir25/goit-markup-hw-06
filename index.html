@@ -486,18 +486,17 @@
 
         <!-- Modal form -->
 
-        <strong class="form-text"
-          >Leave your contacts and we will call you back</strong
+        <p class="form-text"
+          >Leave your contacts and we will call you back</p
         >
         <form class="modal-form" for="user_name_input">
-          <label class="modal-form-label">
-            <span class="modal-form-desc">Name</span>
-          </label>
+        <label class="modal-form-label">
+          <span class="modal-form-desc">Name</span>
           <span class="modal-form-wrapper">
             <input
               type="text"
               id="user_name_input"
-              name="user_neme"
+              name="user_name"
               class="modal-form-input"
               required
               pattern="^[a-zA-Z]+"
@@ -507,9 +506,9 @@
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
           </span>
+        </label>
           <label class="modal-form-label" for="user_phone_input">
             <span class="modal-form-desc">Phone</span>
-          </label>
           <span class="modal-form-wrapper">
             <input
               type="tel"
@@ -524,9 +523,9 @@
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
           </span>
+        </label>
           <label class="modal-form-label" for="user_email_input">
             <span class="modal-form-desc">Email</span>
-          </label>
           <span class="modal-form-wrapper">
             <input
               type="email"
@@ -538,6 +537,7 @@
               <use href="./images/icons.svg#icon-email"></use>
             </svg>
           </span>
+        </label>
           <label class="modal-form-label-comment">
             <span class="modal-form-desc">Comment</span>
             <textarea
