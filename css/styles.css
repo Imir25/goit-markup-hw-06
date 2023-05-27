@@ -709,11 +709,6 @@ img {
 }
 
 .subscride-form {
-  box-sizing: border-box;
-  border-radius: 4px;
-  border: 1px solid #FFFFFF;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-
   display: flex;
   align-items: center;
   background-color: transparent;
@@ -727,11 +722,15 @@ img {
   font-size: 12px;
   line-height: 1.5em;
   letter-spacing: 0.04em;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  box-sizing: border-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
   color: #FFFFFF;
   display: flex;
   align-items: center;
   background-color: transparent;
-  border: none;
 }
 
 .subscride-form-text:focus {
@@ -763,6 +762,7 @@ img {
   border: none;
   cursor: pointer;
   color: #FFFFFF;
+  margin-left: 24px;
 }
 
 .subscride-form-button:hover,
