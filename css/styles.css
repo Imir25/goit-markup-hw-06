@@ -806,7 +806,7 @@ img {
   transform: translate(-50%, -50%);
   border-radius: 4px;
   width: 408px;
-  height: 584px;
+  min-height: 584px;
   min-height: 576px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -855,7 +855,8 @@ img {
 .modal-form-wrapper {
   display: block;
   position: relative;
-  margin-bottom: 4px;
+  margin-top: 4px;
+  
 }
 
 .form-text {
@@ -891,7 +892,6 @@ img {
   font-size: 12px;
   transition: 400ms;
   outline: transparent;
-  margin-top: 4px;
 }
 
 .modal-form-input:focus {
@@ -977,7 +977,7 @@ img {
 
 .modal-submit-button {
   margin: 0 auto;
-  margin-top: 16px;
+  margin-top: 24px;
   padding: 16px 32px;
   border-radius: 4px;
   min-width: 169px;
