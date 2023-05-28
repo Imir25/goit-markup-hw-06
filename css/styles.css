@@ -698,8 +698,6 @@ img {
 }
 
 .subscride-form-title {
-  display: flex;
-  position: relative;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -855,6 +853,7 @@ img {
 /* modal form */
 
 .modal-form-wrapper {
+  display: block;
   position: relative;
   margin-bottom: 4px;
 }
@@ -889,9 +888,10 @@ img {
   border-radius: 4px;
   padding-left: 38px;
   color: #000;
+  font-size: 12px;
   transition: 400ms;
   outline: transparent;
-  /* margin-top: 4px; */
+  margin-top: 4px;
 }
 
 .modal-form-input:focus {
@@ -924,7 +924,7 @@ img {
   padding: 8px 16px;
   width: 360px;
   height: 120px;
-  /* margin-top: 4px; */
+  margin-top: 4px;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   font-size: 12px;
